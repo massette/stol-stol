@@ -1,0 +1,25 @@
+{
+  "name": "stol-stol",
+  "version": "1.0.0",
+  "description": "simple website for a school thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massette/stol-stol.git"
+  },
+  "author": "massette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massette/stol-stol/issues"
+  },
+  "homepage": ".",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "pig": "^0.2.1"
+  }
+}

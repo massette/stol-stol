@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: Helvetica, Roboto, sans-serif;
+	text-align: center;
+	
+	margin: 0;
+	
+	--fg: #333;
+	--bg: #eee;
+	--half: #3333;
+	
+	background: var(--bg);
+}
+
+body.error {
+	--fg: #f33;
+	--half: #f333;
+}
+
+
+#page-head {
+	border-bottom: 0.2rem solid var(--fg);
+	margin-bottom: 2rem;
+}
+
+#page-head .title {
+	font-size: 1.5rem;
+	letter-spacing: 1rem;
+	
+	background: var(--fg);
+	color: var(--bg);
+	
+	padding: 0.5rem 0 0.25rem;
+	margin: 0;
+	
+	text-transform: uppercase;
+}
+
+#page-head .navbar {
+	background: none;
+	color: var(--fg);
+	
+	padding: 0.25rem;
+}
+
+#page-head .navbar a {
+	background: none;
+	color: var(--fg);
+	
+	text-transform: lowercase;
+	text-decoration: none;
+	
+	padding: 0.3rem;
+	
+	transition: background 200ms ease;
+}
+#page-head .navbar a::after {
+	content: ".";
+}
+#page-head .navbar a:hover {
+	background: var(--half);
+}
