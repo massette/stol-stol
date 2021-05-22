@@ -70,7 +70,7 @@ body.error {
 	color: var(--fg);
 }
 
-h1 {
+h1, h2 {
 	font-weight: bold;
 	text-transform: uppercase;
 	
@@ -80,7 +80,9 @@ h1 {
 	margin: 0;
 }
 
-h1::after, th::after {
+h2 { font-size: 0.8rem; }
+
+h1::after, h2::after, th::after {
 	content: ".";
 }
 
@@ -122,9 +124,6 @@ th {
 
 td {
 	font-size: 0.8rem!important;
-}
-td::before {
-	content: "- ";
 }
 
 

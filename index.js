@@ -22,8 +22,16 @@ APP.get("/", function(req, res, next) {
 	res.status(200).render("_", { "title": "stöl•stöl" });
 });
 
+APP.get("/dev", function(req, res, next) {
+	res.status(200).render("dev", { "title": "stöl•stöl" });
+});
+
+APP.get("/build", function(req, res, next) {
+	res.status(200).render("build", { "title": "stöl•stöl" });
+});
+
 APP.get("*", function(req, res, next) {
-	res.status(404).render("404", { "title": "Stöl / 404" });
+	res.status(404).render("404", { "title": "stöl•stöl" });
 });
 
 
