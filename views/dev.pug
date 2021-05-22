@@ -8,29 +8,36 @@ html
 		include includes/head.pug
 		
 		div#page-body
-			img(src="/images/icon.png", style="width: 10%; margin-bottom: 1rem;")
+			img(src="/images/icon.png", style="margin-top: 0;")
 
-		h1 Brainstorming
-		h2 Design 1
-		p img
-		p blurb
-		
-		h2 Design 2
-		p img
-		p blurb
-		
-		h2 Design 3
-		p img
-		p blurb
-		
-		h2 Design 4
-		p img
-		p blurb
-		
-		h2 Design 5
-		p img
-		p blurb
-		
-		h1 Final Prototype
-		p cad drawing
-		p stress test
+			h1 Brainstorming
+			h2 Design 1: The Can
+			img(src="/images/proto-0.png")
+			div.blurb This was our first design, inspired solely by simplicity of design. It's very sturdy and stable, but in the end we decided it was too unwieldy and cost ineffective to be worth pursuing.
+			
+			h2 Design 2: The Stöl
+			img(src="/images/proto-1.png")
+			div.blurb This one was also pretty simple, but we had put some actual thought into it. Not as much thought as triangle and distribution of weight, but an amount of thought. Of the prototypes it was probably the least stable, but the simplicity of construction was enough to balance it out.
+			
+			h2 Design 3: Stöl the Many Faceted
+			img(src="/images/proto-2.png")
+			div.blurb This one was when the wheels really started turning. By slanting the legs outward, more of the downard force would be placed on the supports, without complicated assembly too much... or so we thought. As it turns out we were not well enough aquainted with the tools we were using to wrangle complex fastenings into working consistently, so it was a real hastle to try and get this one working.
+			
+			h2 Design 4: The Hunchback
+			img(src="/images/proto-3.png")
+			div.blurb Of the designs this one is the shallowest. For the most part we only considered stools, but for this one we thought perhaps we should try a little bit more support, and a more appealing chair shape. Only major drawback is that we would have to use straight edges, which is a limitation that the other designs do not have.
+			
+			h2 Design 5: Criss Cross Applesauce
+			img(src="/images/proto-4.png")
+			div.blurb(style="margin-bottom: 8rem;") This one was when we remembered that triangles existed, but too little too late. We had similar issues with the diagonals to the third design, and it seemed like the hastle far outweighed any prospective structural benefits.
+			
+			h1 Final Prototype
+			img(src="/images/final-sketch.png", style="width: 30%;")
+			
+			div.blurb The design that we ended up going with was the Stöl, with some gradual modifications for structural stability. We added some perpendicular beams which didn't complicate assembly too much but added some much needed support to keep the stool standing. This design is largely inspired by an old stool we had rattling around in the warehouses.
+			
+			h2 Model & Stress Test
+			img(src="/images/final-cad.png", style="display: inline-block;")
+			img(src="/images/final-stress.png", style="display: inline-block; width: 30%;")
+			
+			div.blurb(style="margin-bottom: 3rem;") The final design had a pretty well distributed stress test, maxing out at 0.33 MPa. The supports remain pretty much untouched which is an unfortunate effect of using the straight legs, but the ease of construction makes up for it.

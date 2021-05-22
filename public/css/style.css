@@ -139,3 +139,13 @@ ul > li {
 ul > li:not(:last-child)::after {
 	content: " /";
 }
+
+
+img {
+	display: block;
+	
+	width: 10%;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}

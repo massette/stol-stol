@@ -23,11 +23,11 @@ APP.get("/", function(req, res, next) {
 });
 
 APP.get("/dev", function(req, res, next) {
-	res.status(200).render("dev", { "title": "stöl•stöl" });
+	res.status(200).render("dev", { "title": "stöl•stöl / development" });
 });
 
 APP.get("/build", function(req, res, next) {
-	res.status(200).render("build", { "title": "stöl•stöl" });
+	res.status(200).render("build", { "title": "stöl•stöl / build" });
 });
 
 APP.get("*", function(req, res, next) {
