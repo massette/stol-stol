@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+	--fg: #333;
+	--bg: #eee;
+	--half: #3333;
+	
 	font-family: Helvetica, Roboto, sans-serif;
 	text-align: center;
 	
 	margin: 0;
-	
-	--fg: #333;
-	--bg: #eee;
-	--half: #3333;
 	
 	background: var(--bg);
 }
@@ -55,9 +55,88 @@ body.error {
 	
 	transition: background 200ms ease;
 }
-#page-head .navbar a::after {
-	content: ".";
-}
 #page-head .navbar a:hover {
 	background: var(--half);
+}
+
+
+#page-body {
+	display: inline-block;
+	font-size: 0.8rem;
+	
+	width: 100vmin;
+	
+	background: var(--bg);
+	color: var(--fg);
+}
+
+h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	
+	margin: 0;
+}
+
+h1::after, th::after {
+	content: ".";
+}
+
+
+.invert {
+	background: var(--fg);
+	color: var(--bg);
+}
+
+.narrow {
+	width: 50%;
+}
+
+.blurb {
+	display: inline-block;
+	
+	margin-bottom: 2rem;
+}
+.blurb > p {
+	margin:  0.4rem;
+}
+
+
+table {
+	margin: auto;
+	
+	margin-bottom: 2rem;
+}
+
+th {
+	font-weight: bold;
+	text-transform: lowercase;
+	
+	font-size: 0.8rem!important;
+	letter-spacing: 0.1rem;
+	
+	margin: 0;
+}
+
+td {
+	font-size: 0.8rem!important;
+}
+td::before {
+	content: "- ";
+}
+
+
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+ul > li {
+	display: inline-block;
+	padding: 0.2rem;
+}
+ul > li:not(:last-child)::after {
+	content: " /";
 }

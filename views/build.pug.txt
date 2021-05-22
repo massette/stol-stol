@@ -3,10 +3,9 @@ html
 	head
 		title= title
 		link(rel="stylesheet", href="../css/style.css", type="text/css")
-	body.error
+	body
 		include includes/head.pug
-		
-		div#page-body
-			div
-				strong.invert &nbsp404 
-				| &nbspPage not found.
+
+
+5. Cut/Materials List
+6. Build Plan

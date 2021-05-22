@@ -3,10 +3,14 @@ html
 	head
 		title= title
 		link(rel="stylesheet", href="../css/style.css", type="text/css")
-	body.error
+	body
 		include includes/head.pug
 		
-		div#page-body
-			div
-				strong.invert &nbsp404 
-				| &nbspPage not found.
+
+
+1. Brain Storming
+-Includes brainstorming phase/five unique prototypes (5)
+
+2. Decision Matrix
+3. CAD Drawing
+4. Stress Test

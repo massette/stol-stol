@@ -19,7 +19,7 @@ APP.use("/", function(req, res, next) {
 });
 
 APP.get("/", function(req, res, next) {
-	res.status(200).render("_", { "title": "Stöl" });
+	res.status(200).render("_", { "title": "stöl•stöl" });
 });
 
 APP.get("*", function(req, res, next) {
