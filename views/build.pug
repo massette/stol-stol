@@ -2,11 +2,77 @@ doctype html
 html
 	head
 		title= title
+		link(rel="icon", href="/images/icon.png", type="image/png")
 		link(rel="stylesheet", href="../css/style.css", type="text/css")
 	body
 		include includes/head.pug
 		
-		p mat list
-		p fasteners list
-		
-		h1 Instructions
+		div#page-body
+			img(src="/images/icon.png", style="margin-top: 0;")
+			
+			h1(style="margin-bottom: 1rem;") Parts
+			table(style="padding-right: 3rem")
+				tr
+					th materials
+					th cost
+				tr
+					td 12" round plywood board, 1" thick
+					td $15.36
+				tr
+					td(style="text-align: right;") 96" of 2x4
+					td $6.24
+			
+			table
+				tr
+					th fasteners
+					th count
+				tr
+					td 2" bolts
+					td 2
+				tr
+					td nuts
+					td 2
+				tr
+					td corner braces
+					td 16
+			
+			table
+				tr
+					th material
+					th length
+					th count
+				tr
+					td 2x4
+					td 29"
+					td 4
+				tr
+					td.
+					td 8"
+					td 5
+				tr
+					td.
+					td 2.25"
+					td 2
+			
+			h1(style="margin-bottom: 1rem;") Instructions
+			div.blurb Now that you've assembled all the parts you need, we can begin constructing the stool.
+			
+			h2 Step 1: Assemble Top Support
+			img(src="/images/step-0.png")
+			div.blurb.narrow Attach the 2.25" blocks to an 8" block to form a cross. This will be the top most support in your stool and will be placed flush to the tops of your stool legs.
+			
+			h2 Step 2: Make Holes
+			img(src="/images/step-1.png")
+			div.blurb.narrow Using a drill bit the same radius as your bolts, drill a hole in the center of the remaining 8" blocks.
+			
+			h2 Step 3: Assemble Supports
+			img(src="/images/step-2.png")
+			div.blurb.narrow Fasten the remaining 8" blocks in pairs as shown above, with one over the other, using the 2" bolts.
+			
+			h2 Step 4: Attatch Supports
+			img(src="/images/step-3.png")
+			div.blurb.narrow Using the angle braces,attach the assembled supports to the 29" boards at equal intervals. They should be perpendicular to the 29" blocks, and should be attatched to a 29" block on every side.
+			
+			h2 Step 5: Attatch Seat
+			img(src="/images/step-4.png")
+			div.blurb.narrow Attatch the circle board to the top of the stool using nails or wood glue.

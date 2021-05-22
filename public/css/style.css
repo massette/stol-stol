@@ -124,6 +124,11 @@ th {
 
 td {
 	font-size: 0.8rem!important;
+	padding: 0.2rem 1rem;
+}
+
+td:not(:last-child) {
+	border-right: 0.1rem solid var(--fg);
 }
 
 
